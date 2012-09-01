@@ -2,8 +2,7 @@ FEHC - Fast and Effective Histogram Construction
 ------------------------------------------------
 
 FEHC is a program to evaluate the efficiency and effectiveness of several 
-histogram construction (or sequence segmentation) algorithms
-as mentioned in these two papers:
+histogram construction (or sequence segmentation) algorithms as mentioned in these two papers:
 
 (1). Felix Halim, Panagiotis Karras, Roland H. C. Yap: 
      Fast and effective histogram construction. CIKM 2009.
@@ -11,18 +10,22 @@ as mentioned in these two papers:
 (2). Felix Halim, Panagiotis Karras, Roland H. C. Yap: 
      Local Search in Histogram Construction. AAAI 2010.
 
+For more information please visit the website:
+
+http://felix-halim.net/research/histogram/index.php
+
+
 
 
 How to run the program
 ----------------------
 
-1. Compile all the source codes
+1. Compile all the source codes.
    Go to the folder where the "makefile" resides and type:
 
    make
 
-   It will compile all the source codes and put in the executables
-   in the bin folder
+   It will compile all the source codes and put in the executables in the bin folder
 
 2. Run the algorithm by feeding the input to its standard input
    and specify the input parameter for the program.
@@ -31,9 +34,13 @@ How to run the program
    ./gdy_dp -B 16 -I 8 < data/winding1.in
 
    The available parameters to the program are:
+
    -B to specify how many buckets to generate (mandatory)
+
    -e to specify the epsilon for the AHistL program
+
    -I to specify the number of iterations for GDY_DP and GDY_BDP
+
 
 
 
