@@ -7,6 +7,7 @@ as mentioned in these two papers:
 
 (1). Felix Halim, Panagiotis Karras, Roland H. C. Yap: 
      Fast and effective histogram construction. CIKM 2009.
+
 (2). Felix Halim, Panagiotis Karras, Roland H. C. Yap: 
      Local Search in Histogram Construction. AAAI 2010.
 
@@ -27,7 +28,7 @@ How to run the program
    and specify the input parameter for the program.
    For example, to run the GDY algorithm on "winding" dataset, type:
 
-   bin/gdy_dp -B 16 -I 8 < winding1.in
+   ./gdy_dp -B 16 -I 8 < data/winding1.in
 
    The available parameters to the program are:
    -B to specify how many buckets to generate (mandatory)
